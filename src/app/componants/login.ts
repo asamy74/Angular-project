@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { 
   FormControl,
@@ -10,7 +11,7 @@ import {
 @Component({
   selector: 'app-login',
   imports: [
-    ReactiveFormsModule
+    ReactiveFormsModule,CommonModule
   ],
   templateUrl: './login.html',
   styleUrls: ['./login.css']
