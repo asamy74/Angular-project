@@ -20,21 +20,11 @@
             type="email" 
             placeholder="Enter Your Email"
             formControlName="email">
-
-            <p class="error"
-            *ngIf="email?.touched && email?.invalid">
-            Please enter a valid email
-
-        </p>
             <input 
             type="password" 
             placeholder="Enter Your Password"
             formControlName="password">
 
-            <p class="error"
-            *ngIf="password?.touched && password?.invalid">
-            Password must be at least 6 characters
-            </p>
         </div>
         <div class="forgot">
             <div>
